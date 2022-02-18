@@ -1,15 +1,13 @@
 {
-    "name": "Template plugins",
-    "description": "Custom templates plugin",
-    "version": "1.0.0",
-    "author": "Kunal Kushwaha",
-    "repository": "https://github.com/kunal-kushwaha/monokle-templates-plugin",
-    "monoklePlugin": {
-      "modules": [
-        {
-          "type": "template",
-          "path": "basic-pod-template"
-        }
-      ]
-    }
-  }
+	"name": "Template plugins",
+	"description": "Custom templates plugin",
+	"version": "1.0.0",
+	"author": "Kunal Kushwaha",
+	"repository": "https://github.com/kunal-kushwaha/monokle-templates-plugin",
+	"monoklePlugin": {
+		"modules": [{
+			"type": "template",
+			"path": "basic-pod-template"
+		}]
+	}
+}
