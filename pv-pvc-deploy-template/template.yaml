@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: [[ form[0].name ]]
-  namespace: [[ form[0].namespace ]]
+  [[ forms[0].namespace ? "  namespace: " + forms[0].namespace + "\n" : ""]]
 data:
   [[ form[0].data ]]
 
