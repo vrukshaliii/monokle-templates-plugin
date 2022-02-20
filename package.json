@@ -1,6 +1,6 @@
 {
 	"name": "Templates plugin",
-	"description": "Custom templates plugin for Persistent Volume(PV) and Persistent Volume Claims(PVC)",
+	"description": "Custom templates plugin for creating Config Maps",
 	"version": "1.0.0",
 	"author": "Vrukshali Torawane",
 	"repository": "https://github.com/Vrukshali-26/monokle-templates-plugin",

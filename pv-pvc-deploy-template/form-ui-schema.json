@@ -1,38 +1,15 @@
 {
-    "PV-name": {
-      "ui:title": "Name",
-      "ui:help": "The name of the Persistent Volume"
-    },
-
-    "namespace": {
-      "ui:title": "Namespace",
-      "ui:help": "The target namespace for the Pod",
-      "ui:widget": "namespaceSelection"
-    },
-
-    "storage-capacity": {
-        "ui:title": "Storage Capacity",
-        "ui:help": "The amount of storage to be taken from the host"
-    },
-
-    "access-modes": {
-        "ui:title": "Access Modes",
-        "ui:help": "The access mode"
-    },
-
-    "host-path": {
-        "ui:title": "Host Path",
-        "ui:help": "Enter Host Path"
-    },
-
-    "PVC-name": {
-        "ui:title": "Name",
-        "ui:help": "The name of the Persistent Volume"
-    },
-
-    "request-storage": {
-        "ui:title": "Request Storage",
-        "ui:help": "The amount of storage to be Requested"
+        "name": {
+          "ui:title": "Name",
+          "ui:help": "The name of the Config Map"
+        },
+        "namespace": {
+          "ui:title": "Namespace",
+          "ui:help": "The target namespace for the Pod",
+          "ui:widget": "namespaceSelection"
+        },
+        "data": {
+          "ui:title": "Data",
+          "ui:help": "The data to be stored"
+        }
       }
-
-  }

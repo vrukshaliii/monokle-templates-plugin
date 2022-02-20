@@ -1,43 +1,22 @@
 {
-    "type": "object",
-    "required": [
-      "PV-name",
-      "storage-capacity",
-      "access-modes",
-      "host-path",
-      "PVC-name",
-      "request-storage"
-    ],
-    "properties": {
+  "type": "object",
+  "required": [
+    "name",
+    "data"
+  ],
+  "properties": {
 
-      "PV-name": {
-        "type": "string",
-        "default": "my-PV"
-      },
+    "name": {
+      "type": "string",
+      "default": "my-config-map"
+    },
 
-      "namespace": {
-        "type": "string"
-      },
+    "namespace": {
+      "type": "string"
+    },
 
-      "storage-capacity": {
-          "type": "number"
-      },
-
-      "access-modes":{
-          "type":"string"
-      },
-
-      "host-path": {
-          "type": "string"
-      },
-
-      "PVC-name": {
-          "type": "string",
-          "default": "my-PVC"
-      },
-
-      "request-storage": {
-          "type":"number"
-      }
+    "data": {
+      "type": "string"
     }
   }
+}

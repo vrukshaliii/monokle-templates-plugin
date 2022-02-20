@@ -1,15 +1,15 @@
 {
-    "name": "PV PVC",
+    "name": "COnfig Maps",
     "id": "com.github.Vrukshali-26.plugin.templates.pv-pvc-deploy-template",
     "author": "Vrukshali Torawane",
     "version": "1.0.0",
-    "description": "Creates a PV PVC",
+    "description": "Creates Config Map",
     "repository": "",
     "type": "vanilla",
     "forms": [
       {
-        "name": "PV PVC Settings",
-        "description": "Specify the settings for your PV PVC",
+        "name": "Config Map Settings",
+        "description": "Specify the settings for your Config Maps",
         "schema": "form-schema.json",
         "uiSchema": "form-ui-schema.json"
       }
@@ -19,6 +19,6 @@
         "filePath": "template.yaml"
       }
     ],
-    "resultMessage": "Resources created successfully!",
+    "resultMessage": "Config Map created successfully!",
     "helpUrl": "https://github.com/Vrukshali-26/monokle-custom-template"
   }
