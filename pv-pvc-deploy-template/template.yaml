@@ -11,7 +11,7 @@ spec:
   accessModes:
     - [[forms[0].access-modes]]
   hostPath:
-    path: "[[forms[0].host-path]]"
+    path: [[forms[0].host-path]]
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
