@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: [[forms[0].PV-name]]
+  labels:
+    type: local
+spec:
+  storageClassName: ""
+  capacity:
+    storage: [[forms[0].storage-capacity]]
+  accessModes:
+    - [[forms[0].access-modes]]
+  hostPath:
+    path: "[[forms[0].host-path]]"
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: [[forms[0].PVC-name]]
+spec:
+  storageClassName: ""
+  accessModes:
+    - [[forms[0].access-modes]]
+  resources:
+    requests:
+      storage: [[forms[0].request-storage]]

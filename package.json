@@ -1,15 +1,15 @@
 {
 	"name": "Templates plugin",
-	"description": "Custom templates plugin",
+	"description": "Custom templates plugin for Persistent Volume(PV) and Persistent Volume Claims(PVC)",
 	"version": "1.0.0",
-	"author": "Kunal Kushwaha",
-	"repository": "https://github.com/kunal-kushwaha/monokle-templates-plugin",
+	"author": "Vrukshali Torawane",
+	"repository": "https://github.com/Vrukshali-26/monokle-templates-plugin",
 	"monoklePlugin": {
-		"id": "com.github.kunal-kushwaha.plugin.templates",
-		"helpUrl": "https://github.com/kunal-kushwaha/monokle-templates-plugin",
+		"id": "com.github.Vrukshali-26.plugin.templates",
+		"helpUrl": "https://github.com/Vrukshali-26/monokle-templates-plugin",
 		"modules": [{
 			"type": "template",
-			"path": "basic-pod-template"
+			"path": "pv-pvc-deploy-template"
 		}]
 	}
 }
