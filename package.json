@@ -10,7 +10,4 @@
       "modules": [
         {
           "type": "template",
-          "path": "service-template"
-        } 
-    ]
-}
+          "path": "service-template" }]}}
